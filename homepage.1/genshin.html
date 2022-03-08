@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>ɢᴇɴsʜɪɴ 𓆞</title>
+
+        <script src="//code.jquery.com/jquery.min.js"></script>
+        <script>
+        $.get("navigation.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+        });
+        </script>
+
+    </head>
+
+    <body>
+
+        <div id="nav-placeholder"></div>
+
+        <style>
+            mark1
+                {
+                background-color: #f2ebff;
+                color: black;
+                }
+        </style>
+
+
+        <div class="container-fluid container-fluid-w1000">
+        <div>
+            <table style="width: 100%;">
+                <tbody>
+                <tr>
+                    <td style="width: 40%;">
+                        <img src="//i.pinimg.com/564x/ea/8a/a8/ea8aa80374cb7f77427fbc95e84b7b0c.jpg" alt="kokomi"/>
+                </td>
+                    <td style="width: 60%;">
+
+                    <div class="right-col">
+                        <p> <p align="right"> Click here to Listen to “Moon In One's Cup"!
+                        <br> Genshin Impact Theme remade by Kurt Hugo Schneider 
+                        <br> ﹗﹗warning ﹗﹗&emsp; sound can get a bit loud</p>
+                        <img src="stuff/play.png" id="icon">
+                    </div>
+
+                    <audio id="CUP">
+                        <source src="stuff/cup.mp3" type="audio/mp3">
+                    </audio>
+
+                    <script>
+                        var CUP = document.getElementById("CUP");
+                        var icon = document.getElementById("icon");
+
+                        icon.onclick = function(){
+                            if(CUP.paused){
+                                CUP.play();
+                                icon.src = "stuff/pause.png";
+                            }else{
+                                CUP.pause();
+                                icon.src = "stuff/play.png";
+                            }
+                        }
+                    </script>
+
+                    <p>
+                    <br>
+                    <br>
+                    <br>
+                    </p>
+                     <h1 style="font-size:20px;">GENSHIN IMPACT · ꕥ · </h1>
+                        <br>
+                        <p> Genshin Impact is an open-world action RPG developed by miHoYo now HoYoverse.
+                        <br>In the game, Travelers set forth on a journey across a fantasy world called Teyvat.</p>
+                        <br>
+                    <h2 style="font-size:15px;"> MY EXPERIENCE  ┈┈┈┈ 🎕 ◂</h2>
+                        <p> &emsp;While I cannot carry because I'm horrible with PVE I can definetly be the support to your damage
+                        <br>&emsp;Unless you a Hutao main  ᵉʰᵉʰᵉ(*/∇＼⭒)</p>
+                        <p> &emsp;I am a proud koko main... until ayato comes lmao (⁄ ⁄•⁄ꇴ⁄•⁄ ⁄)⁄
+                        <br>&emsp;His idle animation is him pulling boba from his sleves, his voice is the same as Xexres Break... best boy</p>
+                        <p> &emsp;My gatcha luck is really horrible in Genshin... I hit hard pity every time =͟͟͞(꒪ᗜ꒪ ‧̣̥̇)</p>
+                        <p> &emsp;If you wanna play together
+                        <br>&emsp;&emsp;Player ID:
+                        <br>&emsp;&emsp;Nickname:
+                        <br>&emsp;&emsp;Bio:
+                        </p>
+                        <br>
+
+                    <h2 style="font-size:15px;"> IMORTANT LINKS  ┈┈┈┈ 🎕 ◂</h2>
+                        <p>𐐪𐑂&ensp;
+                        <a href="https://genshin.hoyoverse.com/en/news/"> Official Website</a> &ensp;𐐪𐑂 &ensp;
+                        <a href="https://www.hoyolab.com/home/"> HoYoLab</a> &ensp;𐐪𐑂 &ensp;
+                        <a href="https://webstatic-sea.mihoyo.com/ys/event/signin-sea/index.html?act_id=e202102251931481/"> Daily Check-In</a> &ensp;𐐪𐑂&ensp;
+                        <a href="https://genshin-impact-map.appsample.com/#//"> Interactive Map </a> &ensp;𐐪𐑂&ensp;
+                        <a href="https://webstatic-sea.mihoyo.com/ys/event/calculator-sea/index.html?bbs_presentation_style=fullscreen&bbs_auth_required=true&utm_source=hoyolab&utm_medium=post#//"> Enhancement Calculator </a> &ensp; 𐐪𐑂
+                        </p>
+
+                        <br>
+                       <p style="text-align: left;"><mark1>♥*♡∞:｡.｡</mark1> &nbsp; The pretty koko is drawn by <a href="https://twitter.com/ideolo/status/1446508881685876739/"> @ideolo</a> &nbsp; <mark1>｡.｡:∞♡*♥ </mark1></p>
+                </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        </div>
+
+    </body>
+
+</html>
+
